@@ -1,0 +1,18 @@
+@charset "utf_8";
+.box{width: 590px; margin: 50px; }
+.box a{color: #0066CC; text-decoration: none;}
+.box a:hover{ text-decoration: underline;}
+.box_title{width: 100%; height: 30px; border-bottom: 2px solid #5DB30A;}
+.box_title>a{font-size: 13px; line-height: 30px;}
+.box_title>a:hover{color: #0066CC}
+.box_title>a:first-child{width: 75px; height: 30px; margin-right: 15px; box-sizing: border-box; border: 1px solid #5B9400; border-radius: 4px 4px 0 0; float: left; margin-left: 10px; background: linear-gradient(#9BC644,#5BA32B); line-height: 30px; text-align: center; font-size: 15px; font-weight: 700; color: #fff;}
+.box_title>span:last-child{float: right; font-size: 13px; line-height: 30px;}
+.box_content{width: 590px; height: 1500px; border: 1px solid #EBEBEB; box-sizing: border-box; padding: 5px;}
+.boxc_ul{width: 580px;}
+.boxc_ula{width: 380px;}
+.boxc_ul li{font-size: 13px; color: #0066CC; height: 50px;width:100%;border-bottom: 1px dashed black;}
+.boxc_ula li{font-size: 13px; color: #0066CC; height: 50px;width:100%;border-bottom: 1px dashed black;}
+.boxc_ul li p{float: left}
+.boxc_ula li p{float: left}
+.boxc_ul li span{float: right; color: #AAAAAA}
+.boxc_ula li span{float: right; color: #AAAAAA}
